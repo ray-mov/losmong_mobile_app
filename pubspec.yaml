@@ -81,7 +81,7 @@ flutter:
     - family: SF-Pro
       fonts:
         - asset: assets/fonts/SF-pro.ttf
-        - asset: assets/fonts/SF-Pro-Italic.ttf"
+        - asset: assets/fonts/SF-Pro-Italic.ttf
           style: italic
 
 
