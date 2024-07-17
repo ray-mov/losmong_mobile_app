@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:losmong/features/authentication/screens/login/login_screen.dart';
 import 'package:losmong/utils/theme/theme.dart';
 
 class MyApp extends StatelessWidget {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.dartTheme,
-      home: const Text('Flutter Demo Home Page'),
+      home: const LoginScreen(),
     );
   }
 }
